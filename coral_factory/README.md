@@ -9,18 +9,7 @@
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-2.5-4285F4?style=flat-square&logo=google)](https://ai.google.dev/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker)](https://www.docker.com/)
 [![LiteLLM](https://img.shields.io/badge/LiteLLM-Enabled-FF6B6B?style=flat-square)](https://litellm.ai/)
-<<<<<<< HEAD
 
-**Production-ready backend for building and deploying multi-agent AI workflows**
-
-=======
-[![GitHub](https://img.shields.io/badge/GitHub-Innov8Infinity--527A--AI--02-181717?style=flat-square&logo=github)](https://github.com/amBITionV2/Innov8Infinity-527A-AI-02)
-
-**Production-ready backend for building and deploying multi-agent AI workflows**
-
-🔗 **Repository**: [https://github.com/amBITionV2/Innov8Infinity-527A-AI-02](https://github.com/amBITionV2/Innov8Infinity-527A-AI-02)
-
->>>>>>> f9941122ea07b02b812049444cf70981bdcfe7a9
 </div>
 
 ---
