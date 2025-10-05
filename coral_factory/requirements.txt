@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+openai-agents[litellm]
+arcadepy
+agents-arcade
+firebase-admin
+google-generativeai
+litellm
+
+# Tool integrations
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+tweepy
