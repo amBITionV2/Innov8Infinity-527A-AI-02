@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌊 FlowAI
+# 🌊 FlowAI - V0 for AI Agents
 
 ### Build AI Agent Workflows with Natural Language
 
