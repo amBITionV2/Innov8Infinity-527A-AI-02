@@ -1,0 +1,395 @@
+# ========================================
+# FlowAI Project - .gitignore
+# ========================================
+
+# ========================================
+# Environment Variables & Secrets
+# ========================================
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Firebase Credentials
+firebase-service-account.json
+**/firebase-service-account.json
+credentials.json
+token.pickle
+*.json.secret
+
+# API Keys & Secrets
+secrets/
+.secrets/
+*.key
+*.pem
+*.p12
+
+# ========================================
+# Frontend (Next.js)
+# ========================================
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/.turbo/
+
+# Frontend environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.*
+
+# Node modules
+node_modules/
+**/node_modules/
+frontend/node_modules/
+
+# Package manager locks (keep one, ignore others)
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+frontend/coverage/
+frontend/.nyc_output/
+frontend/test-results/
+frontend/playwright-report/
+frontend/.cache/
+
+# Misc frontend
+.DS_Store
+*.pem
+.vercel
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================================
+# Backend (Python/FastAPI)
+# ========================================
+coral_factory/__pycache__/
+coral_factory/**/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+coral_factory/venv/
+coral_factory/env/
+coral_factory/.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ========================================
+# IDEs & Editors
+# ========================================
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm, IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+*~
+\#*\#
+.\#*
+.emacs.desktop
+.emacs.desktop.lock
+
+# ========================================
+# Operating Systems
+# ========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================================
+# Docker
+# ========================================
+*.log
+docker-compose.override.yml
+.dockerignore
+
+# ========================================
+# Logs & Databases
+# ========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.sqlite
+*.sqlite3
+*.db
+
+# ========================================
+# Temporary Files
+# ========================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ========================================
+# Build Artifacts
+# ========================================
+dist/
+build/
+*.egg-info/
+.next/
+out/
+
+# ========================================
+# Package Manager Specific
+# ========================================
+# npm
+package-lock.json
+npm-debug.log*
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# pnpm
+.pnpm-debug.log*
+
+# Bun
+bun.lockb
+
+# ========================================
+# Testing
+# ========================================
+coverage/
+.nyc_output/
+*.test.js.snap
+__snapshots__/
+
+# ========================================
+# Misc
+# ========================================
+# Backup files
+*.backup
+*.old
+
+# Local development
+.local/
+local/
+
+# macOS metadata
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.Spotlight-V100
+.Trashes
+
+# ========================================
+# Project Specific
+# ========================================
+# Tool setup artifacts
+coral_factory/test_*.py
+coral_factory/test_agent.py
+
+# OAuth tokens
+token.pickle
+*.pickle
+
+# API testing
+*.http
+.httpie/
+
+# Temporary scripts
+temp_*.py
+temp_*.sh
+temp_*.ps1
+
+# ========================================
+# Security - NEVER COMMIT THESE!
+# ========================================
+# API Keys
+**/GEMINI_API_KEY*
+**/OPENAI_API_KEY*
+**/TWITTER_API_*
+**/FIREBASE_*
+
+# Credentials
+**/*credentials*.json
+**/*serviceAccount*.json
+**/*service-account*.json
+**/token*.json
+**/token*.pickle
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# ========================================
+# Optional: Keep Example Files
+# ========================================
+# Uncomment these if you want to keep example configs
+# !.env.example
+# !env_example
+# !credentials.example.json
